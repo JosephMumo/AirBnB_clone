@@ -4,6 +4,7 @@ import models
 from datetime import datetime
 """ The BaseModel class is defined here """
 
+
 class BaseModel:
     """
     A base for all the classes in the AirBnb console project
