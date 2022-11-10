@@ -1,26 +1,23 @@
+.places > h1 {
+    align-self: start;
+    font-size: 30px;
+}
 .places {
-  max-width: 1000px;
-  margin: 0px auto;
-  font-size: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.places h1 {
-  width: 100%;
-  padding-left: 22px;
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
 }
-
-.places article {
-  width: 390px;
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid red;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
+article > h2 {
+    font-size: 30px;
+    text-align: auto;
 }
-
-.places article h2 {
-  font-size: 30px;
+section {
+    text-align: center;   
 }
